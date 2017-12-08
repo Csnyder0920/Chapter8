@@ -24,6 +24,8 @@ Partial Class Menu
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnRandomLotteryNumbers = New System.Windows.Forms.Button()
+        Me.btnSeatingChart = New System.Windows.Forms.Button()
+        Me.btnLargestSmallest = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -45,11 +47,31 @@ Partial Class Menu
         Me.btnRandomLotteryNumbers.Text = "Random Lottery Numbers"
         Me.btnRandomLotteryNumbers.UseVisualStyleBackColor = True
         '
+        'btnSeatingChart
+        '
+        Me.btnSeatingChart.Location = New System.Drawing.Point(65, 76)
+        Me.btnSeatingChart.Name = "btnSeatingChart"
+        Me.btnSeatingChart.Size = New System.Drawing.Size(157, 23)
+        Me.btnSeatingChart.TabIndex = 2
+        Me.btnSeatingChart.Text = "Seating Chart"
+        Me.btnSeatingChart.UseVisualStyleBackColor = True
+        '
+        'btnLargestSmallest
+        '
+        Me.btnLargestSmallest.Location = New System.Drawing.Point(65, 105)
+        Me.btnLargestSmallest.Name = "btnLargestSmallest"
+        Me.btnLargestSmallest.Size = New System.Drawing.Size(157, 23)
+        Me.btnLargestSmallest.TabIndex = 3
+        Me.btnLargestSmallest.Text = "Largest/Smallest Arrays"
+        Me.btnLargestSmallest.UseVisualStyleBackColor = True
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(290, 321)
+        Me.Controls.Add(Me.btnLargestSmallest)
+        Me.Controls.Add(Me.btnSeatingChart)
         Me.Controls.Add(Me.btnRandomLotteryNumbers)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Menu"
@@ -60,5 +82,7 @@ Partial Class Menu
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents btnRandomLotteryNumbers As System.Windows.Forms.Button
+    Friend WithEvents btnSeatingChart As System.Windows.Forms.Button
+    Friend WithEvents btnLargestSmallest As System.Windows.Forms.Button
 
 End Class
