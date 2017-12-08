@@ -1,0 +1,11 @@
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\bin\Debug\Chapter8.exe.config
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\bin\Debug\Chapter8.exe
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\bin\Debug\Chapter8.pdb
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\bin\Debug\Chapter8.xml
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\obj\Debug\Chapter8.LotteryNumbers.resources
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\obj\Debug\Chapter8.Menu.resources
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\obj\Debug\Chapter8.Resources.resources
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\obj\Debug\Chapter8.vbproj.GenerateResource.Cache
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\obj\Debug\Chapter8.exe
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\obj\Debug\Chapter8.xml
+C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter8\obj\Debug\Chapter8.pdb
