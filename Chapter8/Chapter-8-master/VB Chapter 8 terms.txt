@@ -1,0 +1,13 @@
+Chaper 8
+
+Anchor Property
+Array
+ascending order
+Elements
+For Each Loop
+One-Dimensional Array
+Parallel Arrays
+Two-dimensional Array
+The upper subscript of an array must be a positive whole number T or F
+Numeric Array elements are automatically initialized to - 1 T or F
+You may nat use a named constant as a subscript in an array declaration
