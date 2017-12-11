@@ -26,6 +26,8 @@ Partial Class Menu
         Me.btnRandomLotteryNumbers = New System.Windows.Forms.Button()
         Me.btnSeatingChart = New System.Windows.Forms.Button()
         Me.btnLargestSmallest = New System.Windows.Forms.Button()
+        Me.btnFriendsList = New System.Windows.Forms.Button()
+        Me.btnFriendsList2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -58,18 +60,38 @@ Partial Class Menu
         '
         'btnLargestSmallest
         '
-        Me.btnLargestSmallest.Location = New System.Drawing.Point(65, 105)
+        Me.btnLargestSmallest.Location = New System.Drawing.Point(65, 163)
         Me.btnLargestSmallest.Name = "btnLargestSmallest"
         Me.btnLargestSmallest.Size = New System.Drawing.Size(157, 23)
         Me.btnLargestSmallest.TabIndex = 3
         Me.btnLargestSmallest.Text = "Largest/Smallest Arrays"
         Me.btnLargestSmallest.UseVisualStyleBackColor = True
         '
+        'btnFriendsList
+        '
+        Me.btnFriendsList.Location = New System.Drawing.Point(65, 105)
+        Me.btnFriendsList.Name = "btnFriendsList"
+        Me.btnFriendsList.Size = New System.Drawing.Size(157, 23)
+        Me.btnFriendsList.TabIndex = 4
+        Me.btnFriendsList.Text = "Friends List"
+        Me.btnFriendsList.UseVisualStyleBackColor = True
+        '
+        'btnFriendsList2
+        '
+        Me.btnFriendsList2.Location = New System.Drawing.Point(65, 134)
+        Me.btnFriendsList2.Name = "btnFriendsList2"
+        Me.btnFriendsList2.Size = New System.Drawing.Size(157, 23)
+        Me.btnFriendsList2.TabIndex = 5
+        Me.btnFriendsList2.Text = "Friends List 2"
+        Me.btnFriendsList2.UseVisualStyleBackColor = True
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(290, 321)
+        Me.Controls.Add(Me.btnFriendsList2)
+        Me.Controls.Add(Me.btnFriendsList)
         Me.Controls.Add(Me.btnLargestSmallest)
         Me.Controls.Add(Me.btnSeatingChart)
         Me.Controls.Add(Me.btnRandomLotteryNumbers)
@@ -84,5 +106,7 @@ Partial Class Menu
     Friend WithEvents btnRandomLotteryNumbers As System.Windows.Forms.Button
     Friend WithEvents btnSeatingChart As System.Windows.Forms.Button
     Friend WithEvents btnLargestSmallest As System.Windows.Forms.Button
+    Friend WithEvents btnFriendsList As System.Windows.Forms.Button
+    Friend WithEvents btnFriendsList2 As System.Windows.Forms.Button
 
 End Class

@@ -70,6 +70,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Friends List 2.Designer.vb">
+      <DependentUpon>Friends List 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Friends List 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Friends List.Designer.vb">
+      <DependentUpon>Friends List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Friends List.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LargestSmallestArrays.Designer.vb">
       <DependentUpon>LargestSmallestArrays.vb</DependentUpon>
     </Compile>
@@ -112,6 +124,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Friends List 2.resx">
+      <DependentUpon>Friends List 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Friends List.resx">
+      <DependentUpon>Friends List.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LargestSmallestArrays.resx">
       <DependentUpon>LargestSmallestArrays.vb</DependentUpon>
     </EmbeddedResource>

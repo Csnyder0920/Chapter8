@@ -25,8 +25,11 @@ Partial Class LargestSmallestArrays
         Me.btnStep1 = New System.Windows.Forms.Button()
         Me.btnStep2 = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.lstInput = New System.Windows.Forms.ListBox()
-        Me.lblResult = New System.Windows.Forms.Label()
+        Me.lstValues = New System.Windows.Forms.ListBox()
+        Me.lblHighest = New System.Windows.Forms.Label()
+        Me.lblLowest = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnStep1
@@ -44,7 +47,7 @@ Partial Class LargestSmallestArrays
         '
         Me.btnStep2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStep2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnStep2.Location = New System.Drawing.Point(25, 75)
+        Me.btnStep2.Location = New System.Drawing.Point(25, 76)
         Me.btnStep2.Name = "btnStep2"
         Me.btnStep2.Size = New System.Drawing.Size(219, 30)
         Me.btnStep2.TabIndex = 1
@@ -55,47 +58,80 @@ Partial Class LargestSmallestArrays
         'btnClear
         '
         Me.btnClear.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(25, 126)
+        Me.btnClear.Location = New System.Drawing.Point(25, 123)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(102, 30)
         Me.btnClear.TabIndex = 2
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
-        'lstInput
+        'lstValues
         '
-        Me.lstInput.FormattingEnabled = True
-        Me.lstInput.Location = New System.Drawing.Point(260, 26)
-        Me.lstInput.Name = "lstInput"
-        Me.lstInput.Size = New System.Drawing.Size(143, 173)
-        Me.lstInput.TabIndex = 3
+        Me.lstValues.FormattingEnabled = True
+        Me.lstValues.Location = New System.Drawing.Point(260, 26)
+        Me.lstValues.Name = "lstValues"
+        Me.lstValues.Size = New System.Drawing.Size(143, 173)
+        Me.lstValues.TabIndex = 3
         '
-        'lblResult
+        'lblHighest
         '
-        Me.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblResult.Location = New System.Drawing.Point(12, 228)
-        Me.lblResult.Name = "lblResult"
-        Me.lblResult.Size = New System.Drawing.Size(391, 23)
-        Me.lblResult.TabIndex = 4
+        Me.lblHighest.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblHighest.Location = New System.Drawing.Point(55, 202)
+        Me.lblHighest.Name = "lblHighest"
+        Me.lblHighest.Size = New System.Drawing.Size(232, 23)
+        Me.lblHighest.TabIndex = 6
+        '
+        'lblLowest
+        '
+        Me.lblLowest.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblLowest.Location = New System.Drawing.Point(55, 235)
+        Me.lblLowest.Name = "lblLowest"
+        Me.lblLowest.Size = New System.Drawing.Size(232, 23)
+        Me.lblLowest.TabIndex = 7
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(3, 212)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(46, 13)
+        Me.Label1.TabIndex = 8
+        Me.Label1.Text = "Highest:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(3, 245)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(44, 13)
+        Me.Label2.TabIndex = 9
+        Me.Label2.Text = "Lowest:"
         '
         'LargestSmallestArrays
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(415, 260)
-        Me.Controls.Add(Me.lblResult)
-        Me.Controls.Add(Me.lstInput)
+        Me.ClientSize = New System.Drawing.Size(415, 272)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblLowest)
+        Me.Controls.Add(Me.lblHighest)
+        Me.Controls.Add(Me.lstValues)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnStep2)
         Me.Controls.Add(Me.btnStep1)
         Me.Name = "LargestSmallestArrays"
         Me.Text = "LargestSmallestArrays"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnStep1 As System.Windows.Forms.Button
     Friend WithEvents btnStep2 As System.Windows.Forms.Button
     Friend WithEvents btnClear As System.Windows.Forms.Button
-    Friend WithEvents lstInput As System.Windows.Forms.ListBox
-    Friend WithEvents lblResult As System.Windows.Forms.Label
+    Friend WithEvents lstValues As System.Windows.Forms.ListBox
+    Friend WithEvents lblHighest As System.Windows.Forms.Label
+    Friend WithEvents lblLowest As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class
