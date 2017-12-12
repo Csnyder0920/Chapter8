@@ -15,7 +15,7 @@
         box.Show()
     End Sub
 
-    Private Sub btnLargestSmallest_Click(sender As Object, e As EventArgs) Handles btnLargestSmallest.Click
+    Private Sub btnLargestSmallest_Click(sender As Object, e As EventArgs)
         Dim box = New LargestSmallestArrays()
         box.Show()
     End Sub
@@ -23,5 +23,9 @@
     Private Sub btnFriendsList2_Click(sender As Object, e As EventArgs) Handles btnFriendsList2.Click
         Dim box = New Friends_List_2()
         box.Show()
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
     End Sub
 End Class

@@ -25,9 +25,9 @@ Partial Class Menu
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnRandomLotteryNumbers = New System.Windows.Forms.Button()
         Me.btnSeatingChart = New System.Windows.Forms.Button()
-        Me.btnLargestSmallest = New System.Windows.Forms.Button()
         Me.btnFriendsList = New System.Windows.Forms.Button()
         Me.btnFriendsList2 = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -58,15 +58,6 @@ Partial Class Menu
         Me.btnSeatingChart.Text = "Seating Chart"
         Me.btnSeatingChart.UseVisualStyleBackColor = True
         '
-        'btnLargestSmallest
-        '
-        Me.btnLargestSmallest.Location = New System.Drawing.Point(65, 163)
-        Me.btnLargestSmallest.Name = "btnLargestSmallest"
-        Me.btnLargestSmallest.Size = New System.Drawing.Size(157, 23)
-        Me.btnLargestSmallest.TabIndex = 3
-        Me.btnLargestSmallest.Text = "Largest/Smallest Arrays"
-        Me.btnLargestSmallest.UseVisualStyleBackColor = True
-        '
         'btnFriendsList
         '
         Me.btnFriendsList.Location = New System.Drawing.Point(65, 105)
@@ -85,19 +76,28 @@ Partial Class Menu
         Me.btnFriendsList2.Text = "Friends List 2"
         Me.btnFriendsList2.UseVisualStyleBackColor = True
         '
+        'btnExit
+        '
+        Me.btnExit.Location = New System.Drawing.Point(102, 163)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.TabIndex = 6
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(290, 321)
+        Me.ClientSize = New System.Drawing.Size(290, 197)
+        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnFriendsList2)
         Me.Controls.Add(Me.btnFriendsList)
-        Me.Controls.Add(Me.btnLargestSmallest)
         Me.Controls.Add(Me.btnSeatingChart)
         Me.Controls.Add(Me.btnRandomLotteryNumbers)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Menu"
-        Me.Text = "Form1"
+        Me.Text = "Chapter 8 Menu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -105,8 +105,8 @@ Partial Class Menu
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents btnRandomLotteryNumbers As System.Windows.Forms.Button
     Friend WithEvents btnSeatingChart As System.Windows.Forms.Button
-    Friend WithEvents btnLargestSmallest As System.Windows.Forms.Button
     Friend WithEvents btnFriendsList As System.Windows.Forms.Button
     Friend WithEvents btnFriendsList2 As System.Windows.Forms.Button
+    Friend WithEvents btnExit As System.Windows.Forms.Button
 
 End Class

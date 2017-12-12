@@ -24,3 +24,4 @@ C:\Users\cs137672\Documents\GitHub\Chapter8\Chapter8\Chapter8\obj\Debug\Chapter8
 C:\Users\cs137672\Documents\GitHub\Chapter8\Chapter8\Chapter8\obj\Debug\Chapter8.Friends_List.resources
 C:\Users\cs137672\Documents\GitHub\Chapter8\Chapter8\Chapter8\obj\Debug\Chapter8.LargestSmallestArrays.resources
 C:\Users\cs137672\Documents\GitHub\Chapter8\Chapter8\Chapter8\obj\Debug\Chapter8.Friends_List_2.resources
+C:\Users\cs137672\Documents\GitHub\Chapter8\Chapter8\Chapter8\obj\Debug\Chapter8.vbprojResolveAssemblyReference.cache
